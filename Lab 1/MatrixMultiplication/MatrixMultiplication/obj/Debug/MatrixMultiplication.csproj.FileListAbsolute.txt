@@ -1,0 +1,5 @@
+H:\Desktop\Industrial\Lab 1\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe.config
+H:\Desktop\Industrial\Lab 1\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.exe
+H:\Desktop\Industrial\Lab 1\MatrixMultiplication\MatrixMultiplication\bin\Debug\MatrixMultiplication.pdb
+H:\Desktop\Industrial\Lab 1\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.exe
+H:\Desktop\Industrial\Lab 1\MatrixMultiplication\MatrixMultiplication\obj\Debug\MatrixMultiplication.pdb

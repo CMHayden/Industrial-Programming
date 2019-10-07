@@ -1,0 +1,6 @@
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\bin\Debug\Euclid’sGreatestCommonDivisor.exe.config
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\bin\Debug\Euclid’sGreatestCommonDivisor.exe
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\bin\Debug\Euclid’sGreatestCommonDivisor.pdb
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\obj\Debug\Euclid’sGreatestCommonDivisor.csprojResolveAssemblyReference.cache
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\obj\Debug\Euclid’sGreatestCommonDivisor.exe
+H:\Desktop\Industrial\Lab 1\Euclid’sGreatestCommonDivisor\Euclid’sGreatestCommonDivisor\obj\Debug\Euclid’sGreatestCommonDivisor.pdb
