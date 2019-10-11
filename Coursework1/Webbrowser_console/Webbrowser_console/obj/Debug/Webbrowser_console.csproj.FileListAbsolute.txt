@@ -4,3 +4,10 @@ H:\Desktop\Industrial\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debu
 H:\Desktop\Industrial\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.pdb
 H:\Desktop\Industrial\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.exe
 H:\Desktop\Industrial\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.pdb
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.exe.config
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.exe
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.pdb
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.csprojAssemblyReference.cache
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.csproj.CoreCompileInputs.cache
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.exe
+P:\GitHub\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.pdb
