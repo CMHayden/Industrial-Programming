@@ -8,8 +8,9 @@ The purpose of the Course F21SC Industrial Programming is to deepen the understa
 
 * Class test 30%
 * Coursework 70%
-    * Coursework 1 - C# - TBC
-    * Coursework 2 - Python - TBC
+    * Coursework 1 - C# - 31-10-19
+        * Create a web browser with C# without using the web browser library. Must include: send http requests, get status codes, store favourites with name, display title, display raw static html code, store history, go back a page, and go forward a page.
+    * Coursework 2 - Python - 5-12-19
 
 **Learning Objectives:**
 
