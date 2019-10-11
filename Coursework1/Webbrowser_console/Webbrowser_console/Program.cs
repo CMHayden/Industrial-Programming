@@ -24,6 +24,7 @@ namespace Webbrowser_console
             try
             {
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                Console.Write(response.StatusCode);
                 Stream stream = response.GetResponseStream();
                 StreamReader reader = new StreamReader(stream);
                 {
@@ -31,7 +32,8 @@ namespace Webbrowser_console
                 }
 
                 return html;
-            } catch (WebException e) // Works with normal exception too.
+            }
+            catch (WebException e) // Works with normal exception too.
             {
                 return e.Message;
             }
@@ -41,6 +43,17 @@ namespace Webbrowser_console
         {
             Console.WriteLine("Please insert URL");
             string url = Console.ReadLine();
+
+            try
+            {
+                new Uri(url);
+            }
+            catch
+            {
+                Console.WriteLine("Invalid URL");
+                Main();
+            }
+
             //string url = "http://www.contoso.com/";
             string html = getHtml(url);
 
@@ -52,6 +65,6 @@ namespace Webbrowser_console
             Console.ReadKey();
         }
 
-        
+
     }
 }
