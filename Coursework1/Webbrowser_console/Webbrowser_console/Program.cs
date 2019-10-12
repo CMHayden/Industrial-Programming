@@ -24,14 +24,22 @@ namespace Webbrowser_console
             try
             {
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-                Console.Write(response.StatusCode);
+                Console.WriteLine(response.StatusCode);
                 Stream stream = response.GetResponseStream();
                 StreamReader reader = new StreamReader(stream);
                 {
                     html = reader.ReadToEnd();
                 }
+                Console.WriteLine(response.StatusCode);
 
-                return html;
+                StringBuilder webData = new StringBuilder();
+
+                webData.Append(html);
+                webData.AppendLine();
+                webData.Append("The status code is: ");
+                webData.Append(response.StatusCode);
+
+                return webData.ToString();
             }
             catch (WebException e) // Works with normal exception too.
             {
