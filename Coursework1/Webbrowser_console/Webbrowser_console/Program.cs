@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,12 @@ namespace Webbrowser_console
 {
     class Program
     {
+
+        public static Stack back = new Stack();
+        public static Stack history = new Stack();
+        public static Stack forward = new Stack();
+        public static string temp;
+
         public static string getHtml(string url)
         {
             string html = string.Empty;
@@ -47,11 +54,71 @@ namespace Webbrowser_console
             }
         }
 
-        static void Main()
+        public static void goBack()
+        {
+            temp = back.Pop().ToString();
+            forward.Push(temp);
+            getPage(temp);
+        }
+
+
+        public static void goForward()
+        {
+            temp = forward.Pop().ToString();
+            back.Push(temp);
+            getPage(temp);
+        }
+
+        public static void goHome()
+        {
+
+        }
+
+        public static void getHistory()
+        {
+
+        }
+
+
+
+        public static void menu()
+        {
+            Console.WriteLine("Press b for back, f for forward, n for new url, i for home or h for history:");
+            string option = Console.ReadLine();
+
+            switch (option)
+            {
+                case "b":
+                    goBack();
+                    break;
+                case "f":
+                    goForward();
+                    break;
+                case "n":
+                    back.Push(history.Peek());
+                    getURL();
+                    break;
+                case "i":
+                    goHome();
+                    break;
+                case "h":
+                    getHistory();
+                    break;
+                default:
+                    Console.WriteLine("Invalid option");
+                    break;
+            }
+        }
+
+        public static void getURL()
         {
             Console.WriteLine("Please insert URL");
             string url = Console.ReadLine();
+            getPage(url);
+        }
 
+        public static void getPage(string url)
+        { 
             try
             {
                 new Uri(url);
@@ -59,18 +126,20 @@ namespace Webbrowser_console
             catch
             {
                 Console.WriteLine("Invalid URL");
-                Main();
+                getURL();
             }
 
-            //string url = "http://www.contoso.com/";
-            string html = getHtml(url);
+            Console.WriteLine(getHtml(url));
 
-            Console.WriteLine(html);
+            history.Push(url);
+            menu();
+        }
 
+        static void Main()
+        {
+            getURL();
+            menu();
 
-
-            Console.Write("Press any key to continue...");
-            Console.ReadKey();
         }
 
 
