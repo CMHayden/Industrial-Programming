@@ -92,7 +92,15 @@ namespace Webbrowser_console
 
         public static void getHistory()
         {
-
+            if (history.Count == 0)
+            {
+                Console.WriteLine("History is empty");
+                return;
+            }
+            foreach (string url in history)
+            {
+                Console.WriteLine(url);
+            }
         }
 
 
