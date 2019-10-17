@@ -16,6 +16,7 @@ namespace Webbrowser_console
         public static Stack history = new Stack();
         public static Stack forward = new Stack();
         public static string temp;
+        public static string home;
 
         public static string getHtml(string url)
         {
@@ -85,6 +86,13 @@ namespace Webbrowser_console
 
         public static void goHome()
         {
+            if(home == String.Empty || home == null)
+            {
+                home = history.Peek().ToString();
+            }
+            Console.WriteLine(home);
+            Console.ReadKey();
+            getPage(home);
 
         }
 
