@@ -56,17 +56,33 @@ namespace Webbrowser_console
 
         public static void goBack()
         {
-            temp = back.Pop().ToString();
-            forward.Push(temp);
-            getPage(temp);
+            if (back.Count != 0)
+            {
+                temp = back.Pop().ToString();
+                forward.Push(temp);
+                getPage(temp);
+            }
+            else
+            {
+                Console.WriteLine("No options to go back to");
+            }
+
         }
 
 
         public static void goForward()
         {
-            temp = forward.Pop().ToString();
-            back.Push(temp);
-            getPage(temp);
+            if (forward.Count != 0)
+            {
+                temp = forward.Pop().ToString();
+                back.Push(temp);
+                getPage(temp);
+            }
+            else
+            {
+                Console.WriteLine("No options to go forward to");
+            }
+
         }
 
         public static void goHome()
