@@ -17,3 +17,11 @@ C:\Users\cmh1\Source\Repos\Industrial-Programming\Coursework1\Webbrowser_console
 C:\Users\cmh1\Source\Repos\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.exe
 C:\Users\cmh1\Source\Repos\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.pdb
 C:\Users\cmh1\Source\Repos\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.csprojResolveAssemblyReference.cache
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.exe.config
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.exe
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.pdb
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.exe
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\bin\Debug\Webbrowser_console.pdb
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.csprojResolveAssemblyReference.cache
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.GUI.resources
+H:\.windows_settings\Desktop\industrial program\Industrial-Programming\Coursework1\Webbrowser_console\Webbrowser_console\obj\Debug\Webbrowser_console.csproj.GenerateResource.Cache
