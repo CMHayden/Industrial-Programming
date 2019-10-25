@@ -1,0 +1,9 @@
+H:\webBrowserGUIApplication\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.exe.config
+H:\webBrowserGUIApplication\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.exe
+H:\webBrowserGUIApplication\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.pdb
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.csprojResolveAssemblyReference.cache
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.Form1.resources
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.Properties.Resources.resources
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.csproj.GenerateResource.Cache
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.exe
+H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.pdb
