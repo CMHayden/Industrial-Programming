@@ -1,4 +1,4 @@
-﻿namespace webBrowserGUIApplication
+﻿namespace webBrowserGUIApplication 
 {
     partial class Form1
     {
@@ -56,6 +56,7 @@
             this.textBoxURL.Name = "textBoxURL";
             this.textBoxURL.Size = new System.Drawing.Size(808, 20);
             this.textBoxURL.TabIndex = 0;
+            this.textBoxURL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxURL_KeyDown);
             // 
             // textBoxHtml
             // 
@@ -258,9 +259,11 @@
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.textBoxHtml);
             this.Controls.Add(this.textBoxURL);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.form1_KeyDown);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -7,3 +7,12 @@ H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIAppl
 H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.csproj.GenerateResource.Cache
 H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.exe
 H:\webBrowserGUIApplication\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.pdb
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.exe.config
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.exe
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.pdb
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.exe
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\bin\Debug\webBrowserGUIApplication.pdb
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.Form1.resources
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.Properties.Resources.resources
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.csproj.GenerateResource.Cache
+\\homefs02\home\cmh1\hwsys\Desktop\webBrowserGUIApplication\obj\Debug\webBrowserGUIApplication.csprojResolveAssemblyReference.cache
